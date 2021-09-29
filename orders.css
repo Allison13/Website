@@ -1,3 +1,4 @@
+
 .Nav{
  text-align: center;
 display: inline;
@@ -6,15 +7,14 @@ ul{
   list-style-type: none;
 margin:0; 
   padding: 0;
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 a:hover{
 background-color: lightgrey;
 }
 .bl{ 
   display: inline-block;
-background-color: #ebdbce;
-  opacity: 80%;
+background-color: #165591;
     color: white;
   margin:; 
   padding: 10px;
@@ -22,18 +22,15 @@ background-color: #ebdbce;
   font-size: 20px; 
 width: 100px;
 }
-  /*A TEMPLATE THAT I THINK WOULD BE GOOD TBD */
-  
- body {
-    background-color: 	#F9F6EE;
-  }
-  
+body{
+background-color: #a1caf1;
+} 
   .OS{
     margin: auto;
     background-color:white;
     box-shadow: 2px 2px 0 rgba(0,0,0,.15);
     width:50%;
-    border:2px solid #dcdcdc;
+    border:2px solid #2a86df;
   padding:20px 20px 20px 20px;
   margin-top:40px;
   height:80%;
@@ -41,9 +38,8 @@ width: 100px;
   }
 .page-header{
   text-align:center;
+
 }
-
-
 @media screen and (max-width: 1000px){
   .OS{
     width:90%;
@@ -55,5 +51,3 @@ width: 100px;
     height:50px;
   }
 }
-
-  
