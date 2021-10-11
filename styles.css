@@ -32,7 +32,7 @@ margin:0;
   font-size: 10px;
 }
 a:hover{
-background-color: lightgrey;
+background-color: #bcd4eb;
 }
 .bl{ 
   display: inline-block;
@@ -45,7 +45,7 @@ background-color: #adcae6;
 width: 100px;
 }
 body{
-  background-color:#F4FFFF;
+  background-color:#F4FFFF; 
 }
 h3 {
 text-align:center;
@@ -67,6 +67,9 @@ text-align:center;
   border-radius:10px;
   margin-left: 50%;
   margin-right: 50%;
+}
+.social-media{
+float: center;
 }
 h4{
 text-align: center;
