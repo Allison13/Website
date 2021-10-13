@@ -76,6 +76,39 @@ h4{
 text-align: center;
 }
 
+.explore{
+    background-color:white;
+    text-shadow: 7px 2px 2px lightgray;
+    color:#4B9CD3;
+    text-align:center;
+    padding:25px;
+    border:5px solid #f4faff;
+    border-right:white;
+    border-top:white;
+    border-left:white;
+  font-size:35px;
+  width:100%;
+}
+
+.p-top{
+background-color:#c1e3ff;  
+  border:3px solid #c1e3ff;
+  border-bottom:#a8d7ff;
+  border:5px solid #F4FFFF;
+   height:100%;
+  padding:50px;
+
+}
+
+.logo{
+  position:relative;
+  top:150px;
+  right:20px;
+  border:4px solid #f4faff;
+  background-color:white;
+  border-radius:25%;
+}
+
 @media screen and (max-width: 1000px){
   .OS{
     width:90%;
