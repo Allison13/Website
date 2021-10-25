@@ -1,112 +1,148 @@
-.page-header{
-  color: #9cb8ca;
-background-color: #5c8aa8;
-  border: 4px solid #324c5d;
-  opacity:;
+h1{
+  color: #cedeeb;
+background-color:#808080;
+  border: 4px solid #6c6c6c; 
     text-align:left top;
-  width: 250px;
-  height: 30px;
+  width: 155px;
+  height: 65px;
   padding: 5px;
   margin: 2px; 
-   font-family: sans-serif;
+ font-family: 'Mandali', sans-serif;
 }
-body{
-background-color: #b6cbd8;
-}
+
+h2{
+  padding:20% 15%;
+    border-top:12px soild orange;
+  border-radius:12px 12px 0 0 ;
+  background:;
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:black;
+    box-shadow:;
+ }
 .Nav{
- text-align: center;
+  text-align: center;
 display: inline;
   transition: transform .2s; 
 }
 ul{
   list-style-type: none;
-margin:0; 
+margin:0 auto; 
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
 }
 a:hover{
-background-color: #cfdde5;
-     transform: scale(1.5);
+background-color: #bcd4eb;
+    transform: scale(1.09);
+  border:1.5px #bcd4eb solid;
+  border-bottom-color:#71a3d4;
+  border-right-color:#71a3d4;
+  box-shadow:1.5px 1.5px 1.5px #acc9e6;
 }
 .bl{ 
   display: inline-block;
-background-color: #2b4150;
+background-color: #adcae6;
     color: white;
-  margin:; 
   padding: 10px;
   text-decoration: none; 
   font-size: 20px; 
 width: 100px;
+  margin:0 auto;
 }
 
-figcaption{
-color: #16222a;
-  position: relative;
- 
+
+
+body{
+  background-color:#F4FFFF;
+  margin-top:0;
+  margin:0 auto;
 }
-.prints{
-border: 5px solid #90aec3;
-  display: block;
+
+.media{
+text-align:center;
+  color:orange;
+  border: 5px solid lightblue;
+  background-color:ghostwhite;
+  position:sticky;
+  border-radius:10px;
+  margin-left: 50%;
+  margin-right: 50%;
 }
-.overlay, .overlay1, .overlay2, .overlay3, .overlay4, .overlay5{
-position: absolute;
-  bottom: 190px;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); 
-  color: #f1f1f1;
-  width: 210px;
-  height: 75px;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  text-align: center;
+.social-media{
+float: center;
 }
- .overlay1{
-top: 967px;
-  width: 310px;
+h4{
+text-align: center;
 }
-.overlay2{
-top: 1200px;
-  width: 415px;
+
+.explore{
+    background-color:white;
+    text-shadow: 7px 2px 2px lightgray;
+    color:#4B9CD3;
+    text-align:center;
+    padding:25px;
+    border:5px solid #f4faff;
+    border-right:white;
+    border-top:white;
+    border-left:white;
+  font-size:35px;
+  width:100%;
 }
-.overlay3{
-top: 1425px;
-  width: 415px;
+
+.p-top{
+background-color:#c1e3ff;  
+  border:3px solid #c1e3ff;
+  border-bottom:#a8d7ff;
+  border:5px solid #F4FFFF;
+  padding:50px;
+  
 }
-.overlay4{
-  top: 1675px;
-width: 310px;
-  height: 50px;
+
+.logo{
+  position:relative;
+  top:150px;
+  right:20px;
+  border:4px solid #f4faff;
+  background-color:white;
+  border-radius:25%;
 }
-.overlay5{
-top: 1900px;
-width: 310px;
-  height: 50px;
+
+
+.printer {
+  position:relative;
+  right:35px;
+  float:left;
+ width:300px;
+  height:250px;
+  border:2px solid #c1e3ff;
+   box-shadow:1.5px 1.5px 1.5px lightgray;
+
 }
-.link{
-  text-decoration: none;
-  color: red;
+
+.head-background{
+  margin-top:0;
+  
 }
-.container:hover .overlay{
-  opacity: 1;
+.ds {
+    background-color: lightblue;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
-.container:hover .overlay1{
-  opacity: 1;
+
+.article1{
+  border:2px solid #c1e3ff;
+  box-shadow:1.5px 1.5px 1.5px lightgray;
+  background-color:white;
+  padding-bottom:6px;
 }
-.container:hover .overlay2{
-  opacity: 1;
+
+.container{
+height:70vh;
 }
-.container:hover .overlay3{
-  opacity: 1;
-}
-.container:hover .overlay4{
-opacity: 1;
-}
-.container:hover .overlay5{
-opacity: 1;
-}
+
 @media screen and (max-width: 1000px){
   .OS{
     width:90%;
@@ -117,9 +153,37 @@ opacity: 1;
     width:100%;
     height:50px;
   }
-}
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
+  
+  footer{
+    background-color:#c1e3ff;
   }
 }
+@media screen and (min-width:900px){
+  .logo{
+    
+  }
+}
+  @media screen and (max-width:800px){
+  .logo{
+    bottom:150px;
+  }
+  }
+
+  @media screen and (min-width:600px){
+  .logo{
+    top:220px;
+  }
+  .explore{
+    
+  }
+  }
+ @media screen and (min-width:450px){
+  .logo{
+    top:175px;
+  }
+  }
+ @media screen and (max-width:350px){
+  .logo{
+    top:220px;
+  }
+  }
