@@ -10,9 +10,13 @@ margin:0;
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
 }
-a:hover{
-background-color: #78b4ef;
-transform: scale(1.5);
+.bl:hover{
+background-color: #bcd4eb;
+    transform: scale(1.09);
+  border:1.5px #bcd4eb solid;
+  border-bottom-color:#71a3d4;
+  border-right-color:#71a3d4;
+  box-shadow:1.5px 1.5px 1.5px #acc9e6;
 }
 .bl{ 
   display: inline-block;
