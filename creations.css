@@ -25,9 +25,13 @@ margin:0;
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
 }
-a:hover{
-background-color: #cfdde5;
-     transform: scale(1.5);
+.bl:hover{
+background-color: #bcd4eb;
+    transform: scale(1.09);
+  border:1.5px #bcd4eb solid;
+  border-bottom-color:#71a3d4;
+  border-right-color:#71a3d4;
+  box-shadow:1.5px 1.5px 1.5px #acc9e6;
 }
 .bl{ 
   display: inline-block;
@@ -47,9 +51,11 @@ color: #16222a;
 border: 5px solid #90aec3;
   display: block;
 }
+
+/*Caption hover*/
 .overlay, .overlay1, .overlay2, .overlay3, .overlay4, .overlay5{
 position: absolute;
-top: 641px;
+top: 685px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1;
@@ -62,24 +68,24 @@ top: 641px;
   text-align: center;
 }
  .overlay1{
-top: 967px;
+top: 1015px;
   width: 310px;
 }
 .overlay2{
-top: 1200px;
-  width: 415px;
+top: 1240px;
+  width: 410px;
 }
 .overlay3{
-top: 1425px;
+top: 1465px;
   width: 415px;
 }
 .overlay4{
-  top: 1725px;
+  top: 1765px;
 width: 310px;
   height: 50px;
 }
 .overlay5{
-top: 1950px;
+top: 1992px;
 width: 310px;
   height: 50px;
 }
@@ -123,21 +129,22 @@ opacity: 1;
 }
 @media screen and (min-width: 990px){
  .overlay{
-  top: 410px;
+  top: 452px;
   }
  .overlay1{
-top: 735px;
+top: 777px;
 }
 .overlay2{
-top: 970px;
+top: 1005px;
 }
 .overlay3{
-top: 1185px;
+top: 1230px;
 }
 .overlay4{
-  top: 1490px;
+  top: 1535px;
 }
 .overlay5{
-top: 1715px;
+top: 1757px;
 }
 }
+/*/Caption hover*/
