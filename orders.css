@@ -64,6 +64,61 @@ transition: 0.70s;
   transform:scale(1.05);
 }
 
+table{
+  background-color:white;
+  padding-right:10px;
+   padding-bottom:10px;
+  border:2.5px solid lightgray;
+  position:relative;
+  left:10px;
+  box-shadow:2px 2px 2px lightgray;
+}
+td{
+  border:2px solid lightgray;
+  font-size:25px;
+}
+  
+#product{
+padding:1px;
+}
+
+.red{
+  background:tomato;
+  color:white;
+}
+
+.orange{
+  background:orange;
+  color:white;
+}
+
+.blue{
+  background:lightblue;
+  color:white;
+}
+
+.yellow{
+  background:gold;
+  color:white;
+}
+
+.black{
+  background:black;
+  color:white;
+}
+
+.green{
+  background:lightgreen;
+  color:white;
+}
+
+.black{
+  background:black;
+  color:white;
+}
+
+
+
 @media screen and (max-width: 1000px){
   .OS{
     width:90%;
@@ -78,6 +133,8 @@ transition: 0.70s;
 @media screen and (min-width: 1025px){
 body{
 background: linear-gradient(#a1caf1, #e5f1fb);
+    margin-bottom:250px;
   }
 }
+
 
