@@ -28,6 +28,7 @@ margin:0;
 .bl:hover{
 background-color: #bcd4eb;
     transform: scale(1.09);
+  transition:0.70s;
   border:1.5px #bcd4eb solid;
   border-bottom-color:#71a3d4;
   border-right-color:#71a3d4;
@@ -50,6 +51,11 @@ color: #16222a;
 .prints{
 border: 5px solid #90aec3;
   display: block;
+
+}
+.PSS{
+  text-decoration:none;
+  color:lightblue;
 }
 
 /*Caption hover*/
@@ -67,6 +73,9 @@ top: 685px;
   font-size: 20px;
   text-align: center;
 }
+
+
+
  .overlay1{
 top: 1015px;
   width: 310px;
@@ -93,24 +102,51 @@ width: 310px;
   text-decoration: none;
   color: red;
 }
-.container:hover .overlay{
+#Psyduck:hover .overlay{
   opacity: 1;
 }
-.container:hover .overlay1{
+#lunamoon:hover .overlay1{
   opacity: 1;
 }
-.container:hover .overlay2{
+#Pss:hover .overlay2{
   opacity: 1;
 }
-.container:hover .overlay3{
+#SR:hover .overlay3{
   opacity: 1;
 }
-.container:hover .overlay4{
+.loki-H:hover .overlay4{
 opacity: 1;
 }
-.container:hover .overlay5{
+.Loki-A:hover .overlay5{
 opacity: 1;
 }
+
+.instagram{
+border-radius:50%;  
+}
+.instagram:hover{
+transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  transform:scale(1.05);
+}
+
+.container{
+  display:flex;
+  
+}
+
+#Pss, #Psyduck, #lunamoon, #SR{
+ flex:20%;
+}
+
+
+
+
+
+
 @media screen and (max-width: 1000px){
   .OS{
     width:90%;
@@ -126,19 +162,36 @@ opacity: 1;
   .column {
     width: 100%;
   }
+ .container{
+      flex-wrap:wrap;
+      display:flex;
+    }
 }
+
+@media screen and (min-width:800px){
+  .container{
+   flex-wrap:wrap;
+    display:flex;
+  }
+}
+  
+  
 @media screen and (min-width: 990px){
  .overlay{
-  top: 452px;
+  top:470px;
+  left:50px;
   }
  .overlay1{
-top: 777px;
+bottom: 550px;
+   top:520px;
+    left:500px;
 }
 .overlay2{
-top: 1005px;
+top: 400px;
+ 
 }
 .overlay3{
-top: 1230px;
+top:400px;
 }
 .overlay4{
   top: 1535px;
