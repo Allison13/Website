@@ -38,16 +38,16 @@ width: 100px;
   padding:20px 20px 20px 20px;
   margin-top:40px;
   height:80%;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Martel', 'Open Sans', sans-serif;
   }
 li{
 font-size: 15px;
 border: 4px solid #000045;
-  width: 225px;
+  width: 250px;
   font-weight: bold;
 }
 .email2{
-width: 270px;
+width: 300px;
 }
 body{
 background-color: #d0e4f9;
@@ -55,11 +55,14 @@ background-color: #d0e4f9;
 }
 .header, h3, li{
 color: #000059;
+  font-family: 'Martel', serif;
+  font-weight: bold;
 }
 .header{
 background-color: #acd1f5;
 border: 4px solid #000045; 
-width: 170px
+width: 170px;
+  font-size: 30px;
 }
 
 .instagram{
@@ -83,7 +86,10 @@ border:4px solid #f4faff;
 .copyright{
 font-family: 'Newsreader', serif;
 }
-
+#name, #email{
+font-family: 'Martel', serif;
+  font-size: 12px;
+}
 @media screen and (max-width: 1000px){
   .OS{
     width:90%;
