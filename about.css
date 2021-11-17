@@ -6,7 +6,6 @@ color: #b4d1de;
   color: #4b8eaa;
 background-color: #99c1d2;
   border: 4px solid #70a8c0;
-  opacity:;
     text-align:left top;
   width: 190px;
   height: 30px;
@@ -124,7 +123,7 @@ font-family: 'Newsreader', serif;
     bottom:50px;
     right:10px;
   }
-  .Allison-About{
+  .Allison-About, .Tk-About{
   background-color:white;
   width:400px;
   height:550px;
@@ -133,11 +132,13 @@ font-family: 'Newsreader', serif;
     border:2px solid gray;
     border-radius:10%;
 }
-  .Me{
+  .Tk-About{
+  top: 60px;
+  }
+  .Me, .Co-creator{
 background-color:;
   padding:10px;
   border-radius:20%;
- 
    border-top-color:lightgray ;
 }
    .Bottom-card{
@@ -146,13 +147,14 @@ background-color:;
       border-bottom-right-radius:10%;
     padding-bottom:15px;
   }
-  #About-A{
+  .About-A{
   text-align:center;
   border:1px solid blue;
-    color:blue;
-  
+    color:blue; 
 }
-
+  footer{
+  margin-top: 40px;
+  }
 }
 @media screen and (min-width: 1000px){
 .A-pic{
