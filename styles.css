@@ -1,3 +1,4 @@
+
 h1{
   color: #cedeeb;
 background-color:#808080;
@@ -28,7 +29,7 @@ ul{
   list-style-type: none;
 margin:0 auto; 
   padding: 0;
-  font-size: 10px;
+  font-size: 20px;
 }
 .bl:hover{
 background-color: #bcd4eb;
@@ -57,25 +58,13 @@ body{
   margin:0 auto;
 }
 
-.media{
-text-align:center;
-  color:orange;
-  border: 5px solid lightblue;
-  background-color:ghostwhite;
-  position:sticky;
-  border-radius:10px;
-  margin-left: 50%;
-  margin-right: 50%;
-}
-.social-media{
-float: center;
+.copyright{
+font-family: 'Newsreader', serif;
 }
 h3{
 font-family: 'Lora', serif;
 }
-h4{
-text-align: center;
-}
+
 
 .explore{
     background-color:white;
@@ -141,19 +130,19 @@ background-color:#c1e3ff;
   text-align:left;
   font-family: 'Lora', serif;
 }
+.try{
+margin-bottom: 20px;
+}
 
 .container{
 height:80vh;
+}  
+footer{
+  position: static;
+margin-top: 50%;
+  padding-top: 50%
+  
 }
-  .objects{
-    float:left;
-  margin:3px;
-    position:relative;
-    top:15px;
-    border:2px solid #c1e3ff;
-  box-shadow:1.5px 1.5px 1.5px lightgray;
-}
-
 .what{
   font-size:20px;
   color:#4B9CD3;
@@ -172,10 +161,6 @@ transition: 0.70s;
   -ms-transition: 0.70s;
   -o-transition: 0.70s;
   transform:scale(1.05);
-}
-
-.copyright{
-font-family: 'Newsreader', serif;
 }
 
 @media screen and (max-width: 1000px){
@@ -214,4 +199,10 @@ font-family: 'Newsreader', serif;
   .logo{
     top:220px;
   }
+  } 
+@media screen and (min-width: 320px){
+footer{
+  position: absolute; 
+    margin-top: -50%;
   }
+}
